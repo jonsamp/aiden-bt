@@ -1,0 +1,8 @@
+name: Development build
+
+jobs:
+  build_ios:
+    type: build
+    params:
+      platform: ios
+      profile: development
